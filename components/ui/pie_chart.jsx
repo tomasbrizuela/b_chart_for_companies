@@ -18,8 +18,8 @@ import {
 export const description = "A donut chart with text"
 
 const chartData = [
-    { browser: "rest", amount: 0.622, fill: "#000000" },
-    { browser: "holdings", amount: 0.378, fill: "#ff4d00" }
+    { browser: "To buy", amount: 0.622, fill: "#000000" },
+    { browser: "Owned", amount: 0.378, fill: "#f7931a" }
 ]
 
 const chartConfig = {
@@ -51,8 +51,8 @@ const chartConfig = {
 export function ChartPieDonutText() {
     return (
         <Card className="flex flex-col">
-            <CardHeader className="items-center pb-0">
-                Part of 1 Bitcoin owned by the company
+            <CardHeader className="items-center pb-0 text-center">
+                Part of 1 Bitcoin your company own.
             </CardHeader>
             <CardContent className="flex-1 pb-0">
                 <ChartContainer

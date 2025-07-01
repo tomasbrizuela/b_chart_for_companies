@@ -8,10 +8,10 @@ export default function Start() {
             <h1 className="font-bold text-4xl">Start staking</h1>
             <Login_Form></Login_Form>
             <div className="text-center">
-                <Separator className="w-[200px] bg-gray-400"></Separator>
+                <Separator className="w-auto bg-gray-400"></Separator>
             </div>
-            <div className="text-center w-full">
-                <Button className={" w-full max-w-sm bg-blue-500"}>Start with Google</Button>
+            <div className="text-center w-8/12 sm:w-4/12">
+                <Button className={"w-full bg-blue-500"}>Start with Google</Button>
             </div>
         </div>
     );
